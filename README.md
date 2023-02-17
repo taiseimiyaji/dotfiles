@@ -1,13 +1,14 @@
 # DotFiles
+
+### まだ冪等性がない状態なので注意
+
 以下、Macでの設定方法
 
-HOMEにcloneすること前提.
+HTTPSを用いた場合のgit clone
 ```
-cd
-```
-したあとに
-```
-git clone 本リポジトリ
+cd "$HOME"
+git clone https://github.com/taiseimiyaji/dotfiles.git
+cd dotfiles
 ```
 
 ## .gitconfig
