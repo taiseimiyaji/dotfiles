@@ -37,6 +37,11 @@ runner.shの実行でiTerm2がインストールされる。
 
 iTerm2 > setting > General > Load Preferences から`com.googlecode.iterm2.plist`ファイルを読み込む。
 
+HotKeyの設定をしているので
+command + iでターミナルを呼べる
+
+また、タブで補完候補を表示できる
+
 
 ### icebergカラーにする
 
