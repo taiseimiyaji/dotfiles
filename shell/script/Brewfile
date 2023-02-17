@@ -1,0 +1,18 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "anyenv"
+brew "php"
+brew "composer"
+brew "jq"
+brew "tree"
+mas "Slack", id: 803453959
+mas "Trello", id: 1278508951
+cask "authy"
+cask "docker"
+cask "iterm2"
+cask "postman"
+cask "sequel-ace"
+cask "toggl-track"
+cask "visual-studio-code"
+cask "google-chrome"
