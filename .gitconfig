@@ -1,0 +1,11 @@
+[user]
+        name = 
+        email = 
+[alias]
+        delete-merged-branch = !git branch --merged | egrep -v '\\*|master|main|develop' | xargs git branch -d
+        gr = log --graph --decorate --oneline --all
+        graph = log -p --name-only --graph --date=short --decorate=short --all
+        cgr = log --first-parent --graph --date=short --oneline --decorate --all
+        latest = !git checkout `git remote show origin | grep 'HEAD branch' | awk '{print $NF}'` && git fetch -p --all && git pull --all && git delete-merged-branch
+[core]
+        excludesFile = /Users/miyajitaisei/.gitignore
