@@ -1,8 +1,8 @@
 # Install HomeBrew and Bandle software
-sh ./brew.sh
+sh ./script/brew.sh
 
 # Install nodenv
 anyenv install nodenv
 
 # make symbolic link
-sh ./zsh.sh
+sh ./script/zsh.sh
