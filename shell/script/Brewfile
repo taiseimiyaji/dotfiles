@@ -7,8 +7,10 @@ brew "composer"
 brew "jq"
 brew "tree"
 mas "Slack", id: 803453959
-mas "Trello", id: 1278508951
-mas 'Kindle', id: 405399194
+# failed
+# mas "Trello", id: 1278508951
+# mas 'Kindle', id: 405399194
+
 cask "authy"
 cask "docker"
 cask "iterm2"
@@ -17,3 +19,4 @@ cask "sequel-ace"
 cask "toggl-track"
 cask "visual-studio-code"
 cask "google-chrome"
+cask "kindle"
