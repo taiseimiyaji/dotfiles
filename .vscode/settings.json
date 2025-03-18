@@ -1,0 +1,67 @@
+{
+    // ファイルの種類ごとの設定: JSON with Comments用のデフォルトフォーマッターの設定
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode" // JSONCファイルに対してPrettierをフォーマッターとして使用
+    },
+    // ファイルの種類ごとの設定: Pythonファイルでの設定
+    "[python]": {
+        "editor.formatOnType": true // Pythonファイルで、入力時に自動フォーマットを実行
+    },
+    // データベースクライアントの自動同期を有効にする
+    "database-client.autoSync": true,
+    // Dev Containersで自動的にインストールする拡張機能のリスト
+    "dev.containers.defaultExtensions": [
+        "GitHub.copilot" // GitHub Copilot拡張機能を含む
+    ],
+    // エディタのカーソルの点滅方法を「smooth（スムーズ）」に設定
+    "editor.cursorBlinking": "smooth",
+    // カーソル移動時のスムーズなアニメーションを有効にする
+    "editor.cursorSmoothCaretAnimation": "on",
+    // カーソルのスタイルをブロック（四角）に設定
+    "editor.cursorStyle": "block",
+    // フォントのリガチャ（合字）を有効にする
+    "editor.fontLigatures": true,
+    // エディタのフォントサイズを16pxに設定
+    "editor.fontSize": 16,
+    // エディタ内のインラインサジェスト機能を有効にする
+    "editor.inlineSuggest.enabled": true,
+    // エディタのミニマップ（サイドバーの小さなコードビュー）を無効にする
+    "editor.minimap.enabled": false,
+    // エディタの現在行のハイライト表示方法を「all」に設定（行全体をハイライト）
+    "editor.renderLineHighlight": "all",
+    // エディタで使用するタブ幅を4に設定
+    "editor.tabSize": 4,
+    // エクスプローラーの「Open Editors」ビューに表示するエディタ数の上限
+    "explorer.openEditors.visible": 10,
+    // ファイル保存時にフォーカスが外れた時に自動保存を実行
+    "files.autoSave": "onFocusChange",
+    // GeminicodeAssistのプロジェクト設定（空文字の場合は未設定）
+    "geminicodeassist.project": "",
+    // GitHub Copilotのエディタ内自動補完を有効にする
+    "github.copilot.editor.enableAutoCompletions": true,
+    // GitHub Copilot全体の有効/無効設定（ファイルタイプごとに個別設定可能）
+    "github.copilot.enable": {
+        "*": true,          // すべてのファイルタイプで有効
+        "plaintext": false, // プレーンテキストでは無効
+        "markdown": true,   // Markdownファイルでは有効
+        "scminput": false    // SCM入力では無効
+    },
+    // エディタのテーマを「Default Dark+」に設定
+    "workbench.colorTheme": "Default Dark+",
+    // エディタタブのプレビュー機能を無効にする（シングルクリックでの一時表示を防止）
+    "workbench.editor.enablePreview": false,
+    // クイックオープンからのプレビュー機能も無効にする
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    // エクスプローラー等で使用するアイコンテーマを「material-icon-theme」に設定
+    "workbench.iconTheme": "material-icon-theme",
+    // ウィンドウのズームレベルを0に設定（標準倍率）
+  "window.zoomLevel": 0,
+  "roo-cline.allowedCommands": [
+      "npm test",
+      "npm install",
+      "tsc",
+      "git log",
+      "git diff",
+      "git show"
+  ]
+}
